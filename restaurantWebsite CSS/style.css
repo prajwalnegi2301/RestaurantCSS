@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+.upper{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+
+}
+.hero{
+    margin: 10px;
+    padding:5px;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 10px;
+    padding: 5px;
+
+
+}
+.fifty{
+    background-color: green;
+    text-align: center;
+    color: aliceblue;
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Gill Sans' sans-serif;
+    box-shadow: 2px 2px 1px solid green;
+    
+
+}
+h1{
+    font-size: 80px;
+
+}
+.upperpara{
+    font-size:20px; 
+}
+
+.explore{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+.explore:hover{
+    transition: 1ms ease-in-out;
+    background-color:chartreuse;
+    transform: scale(0.8);
+    opacity: 0.8;
+
+}
+
+
+
+
+
+
+
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+    padding: 50px;
+    gap:10px;
+   
+    
+
+}
+
+.midlleone,.midlletwo,.midllethree{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+
+
+}
+.middleonetext,.middletwotext,.middlethreetext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.middleonetexthead,.middletwotexthead,.middlethreetexthead{
+    font-size: 20px;
+}
+.middleonetextcontent,.middletwotextcontent,.middlethreetextcontent{
+    font-size: 15px;
+}
+
+.divider{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    
+
+} 
+
+
+
+
+.footerr{
+    background-color: lightcoral;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerimage{
+    width:100px;
+    height: 80px;
+    display: flex;
+    align-self: flex-start;
+    
+}
+
+#mail{
+    box-shadow: 2px 2px 2px solid grey;
+    color: light orange;
+
+}
+#mail:hover{
+    outline-color: darkblue;
+    background-color: lightblue;
+    opacity: 1.5;
+    
+}
+.lower{
+    display: grid;
+    grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7" ;
+    gap: 10px;
+    border: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
